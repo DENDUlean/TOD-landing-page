@@ -67,22 +67,28 @@ body{
 
 .right-side{
     display: flex;
-    padding-left: 120px;
+    padding-left: 110px;
     align-items: center;
     width: 50%;
 }
 
 .btn{
     color: white;
-    background: rgb(50, 50, 231);
+    background: rgb(80, 80, 234);
     border: none;
     border-radius: 8px;
     padding: 10px 30px;
     margin-top: 15px;
 }
 
+.btn:hover{
+    color: black;
+    background: white;
+}
+
 img{
     width: 400px;
+    margin-bottom: 50px;
 }
 
 .info-container{
@@ -94,6 +100,7 @@ img{
 .info-title{
     text-align: center;
     margin-top: 32px;
+    font-size: 36px;
     margin-bottom: 32px;
 }
 
@@ -111,5 +118,56 @@ img{
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    border: 2px solid blue;
+    border: 3px solid rgb(80, 80, 234);
+}
+
+.call-action{
+    margin-top: 20px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    border-radius: 10px;
+    background: rgb(80, 80, 234);
+    width: 900px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 70%;
+    padding: 25px;
+    padding-left: 100px;
+    color: white;
+}
+
+.left-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.btn-call{
+    color: white;
+    border: 2px solid white;
+    background: none;
+    border-radius: 5px;
+    padding: 8px 35px;
+}
+
+.btn-call:hover{
+    background: whitesmoke;
+    color: black;
+    border: none;
 }
