@@ -6,4 +6,38 @@
 
 body{
     height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: #1f2937;
+    color: white;
+}
+
+#logo{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-list{
+    gap: 2rem;
+    display: flex;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.nav-list a:hover{
+    color: rgb(204, 201, 201);
 }
